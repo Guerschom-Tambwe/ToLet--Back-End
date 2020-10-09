@@ -1,0 +1,16 @@
+C:\Users\Guerschom\Documents\CSharpProject\CSharp.App\bin\Debug\netcoreapp3.1\CSharp.App.exe
+C:\Users\Guerschom\Documents\CSharpProject\CSharp.App\bin\Debug\netcoreapp3.1\CSharp.App.deps.json
+C:\Users\Guerschom\Documents\CSharpProject\CSharp.App\bin\Debug\netcoreapp3.1\CSharp.App.runtimeconfig.json
+C:\Users\Guerschom\Documents\CSharpProject\CSharp.App\bin\Debug\netcoreapp3.1\CSharp.App.runtimeconfig.dev.json
+C:\Users\Guerschom\Documents\CSharpProject\CSharp.App\bin\Debug\netcoreapp3.1\CSharp.App.dll
+C:\Users\Guerschom\Documents\CSharpProject\CSharp.App\bin\Debug\netcoreapp3.1\CSharp.App.pdb
+C:\Users\Guerschom\Documents\CSharpProject\CSharp.App\bin\Debug\netcoreapp3.1\CSharp.Domain.dll
+C:\Users\Guerschom\Documents\CSharpProject\CSharp.App\bin\Debug\netcoreapp3.1\CSharp.Domain.pdb
+C:\Users\Guerschom\Documents\CSharpProject\CSharp.App\obj\Debug\netcoreapp3.1\CSharp.App.csprojAssemblyReference.cache
+C:\Users\Guerschom\Documents\CSharpProject\CSharp.App\obj\Debug\netcoreapp3.1\CSharp.App.AssemblyInfoInputs.cache
+C:\Users\Guerschom\Documents\CSharpProject\CSharp.App\obj\Debug\netcoreapp3.1\CSharp.App.AssemblyInfo.cs
+C:\Users\Guerschom\Documents\CSharpProject\CSharp.App\obj\Debug\netcoreapp3.1\CSharp.App.csproj.CoreCompileInputs.cache
+C:\Users\Guerschom\Documents\CSharpProject\CSharp.App\obj\Debug\netcoreapp3.1\CSharp.App.csproj.CopyComplete
+C:\Users\Guerschom\Documents\CSharpProject\CSharp.App\obj\Debug\netcoreapp3.1\CSharp.App.dll
+C:\Users\Guerschom\Documents\CSharpProject\CSharp.App\obj\Debug\netcoreapp3.1\CSharp.App.pdb
+C:\Users\Guerschom\Documents\CSharpProject\CSharp.App\obj\Debug\netcoreapp3.1\CSharp.App.genruntimeconfig.cache
