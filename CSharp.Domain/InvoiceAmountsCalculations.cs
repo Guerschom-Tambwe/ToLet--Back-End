@@ -7,7 +7,7 @@ namespace CSharp.Domain
 {
     public class InvoiceAmountsCalculations
     {
-        public static void calculateItemPrices(List<InvoiceItem> items)
+        public static void CalculateItemPrices(List<InvoiceItem> items)
         {
 
             for (var i = 0; i < items.Count; i++)
@@ -17,7 +17,7 @@ namespace CSharp.Domain
 
         }
 
-        public static void calculateTotalAmountPerInvoice(int invoicePosition, List<Invoice> invoiceDetails, List<InvoiceItem> items)
+        public static void CalculateTotalAmountPerInvoice(int invoicePosition, List<Invoice> invoiceDetails, List<InvoiceItem> items)
         {
             double calculationHolder = 0;
 
