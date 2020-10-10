@@ -9,6 +9,8 @@ namespace CSharp.App
         {
             var invoiceStore = new InvoiceStore();
             var createdInvoices = invoiceStore.CreateInvoices();
+
+            Console.WriteLine(createdInvoices[0].TotalInvoiceAmount);
        }
     }
 }
