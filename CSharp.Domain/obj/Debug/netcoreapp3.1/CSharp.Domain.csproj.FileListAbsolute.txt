@@ -1,12 +1,3 @@
-C:\Users\Guerschom\Documents\csharp-starter\CSharp.Domain\bin\Debug\netcoreapp3.1\CSharp.Domain.deps.json
-C:\Users\Guerschom\Documents\csharp-starter\CSharp.Domain\bin\Debug\netcoreapp3.1\CSharp.Domain.dll
-C:\Users\Guerschom\Documents\csharp-starter\CSharp.Domain\bin\Debug\netcoreapp3.1\CSharp.Domain.pdb
-C:\Users\Guerschom\Documents\csharp-starter\CSharp.Domain\obj\Debug\netcoreapp3.1\CSharp.Domain.csprojAssemblyReference.cache
-C:\Users\Guerschom\Documents\csharp-starter\CSharp.Domain\obj\Debug\netcoreapp3.1\CSharp.Domain.AssemblyInfoInputs.cache
-C:\Users\Guerschom\Documents\csharp-starter\CSharp.Domain\obj\Debug\netcoreapp3.1\CSharp.Domain.AssemblyInfo.cs
-C:\Users\Guerschom\Documents\csharp-starter\CSharp.Domain\obj\Debug\netcoreapp3.1\CSharp.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Guerschom\Documents\csharp-starter\CSharp.Domain\obj\Debug\netcoreapp3.1\CSharp.Domain.dll
-C:\Users\Guerschom\Documents\csharp-starter\CSharp.Domain\obj\Debug\netcoreapp3.1\CSharp.Domain.pdb
 C:\Users\Guerschom\Documents\CSharpProject\CSharp.Domain\bin\Debug\netcoreapp3.1\CSharp.Domain.deps.json
 C:\Users\Guerschom\Documents\CSharpProject\CSharp.Domain\bin\Debug\netcoreapp3.1\CSharp.Domain.dll
 C:\Users\Guerschom\Documents\CSharpProject\CSharp.Domain\bin\Debug\netcoreapp3.1\CSharp.Domain.pdb

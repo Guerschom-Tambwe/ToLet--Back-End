@@ -1,5 +1,7 @@
-﻿using System;
-using CSharp.Domain;
+﻿using FullStack.Data;
+using FullStack.Data.Entities;
+using System;
+
 
 namespace CSharp.App
 {
@@ -7,10 +9,11 @@ namespace CSharp.App
     {
         static void Main(string[] args)
         {
-            var invoiceStore = new InvoiceStore();
+            /*var invoiceStore = new InvoiceStore();
             var createdInvoices = invoiceStore.CreateInvoices();
 
             Console.WriteLine(createdInvoices[0].TotalInvoiceAmount);
+            */
        }
     }
 }
