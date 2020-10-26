@@ -23,17 +23,5 @@ namespace FullStack.Data.Entities
                 RatePerHour = ratePerHour,
             };
         }
-
-        public static InvoiceItem Create(int id, string description, decimal ratePerHour, decimal hoursWorked, int invoiceId)
-        {
-            return new InvoiceItem
-            {
-                InvoiceItemId = id,
-                Description = description,
-                HoursWorked = hoursWorked,
-                RatePerHour = ratePerHour,
-                InvoiceId = invoiceId
-            };
-        }
     }
 }
