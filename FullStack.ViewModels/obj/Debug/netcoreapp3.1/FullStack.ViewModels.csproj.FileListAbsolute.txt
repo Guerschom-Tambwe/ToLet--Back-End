@@ -1,0 +1,12 @@
+C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels\bin\Debug\netcoreapp3.1\FullStack.ViewModels.deps.json
+C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels\bin\Debug\netcoreapp3.1\FullStack.ViewModels.dll
+C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels\bin\Debug\netcoreapp3.1\FullStack.ViewModels.pdb
+C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels\obj\Debug\netcoreapp3.1\FullStack.ViewModels.csprojAssemblyReference.cache
+C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels\obj\Debug\netcoreapp3.1\FullStack.ViewModels.AssemblyInfoInputs.cache
+C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels\obj\Debug\netcoreapp3.1\FullStack.ViewModels.AssemblyInfo.cs
+C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels\obj\Debug\netcoreapp3.1\FullStack.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels\obj\Debug\netcoreapp3.1\FullStack.ViewModels.dll
+C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels\obj\Debug\netcoreapp3.1\FullStack.ViewModels.pdb
+C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels\bin\Debug\netcoreapp3.1\FullStack.Data.dll
+C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels\bin\Debug\netcoreapp3.1\FullStack.Data.pdb
+C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels\obj\Debug\netcoreapp3.1\FullStack.ViewModels.csproj.CopyComplete
