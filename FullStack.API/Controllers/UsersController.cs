@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using FullStack.API.Services;
 using FullStack.ViewModels;
+using Microsoft.AspNetCore.Authorization;
+using FullStack.API.Helpers;
 
 namespace FullStack.API.Controllers
 {
@@ -25,7 +22,7 @@ namespace FullStack.API.Controllers
             var response = _userService.Authenticate(model);
 
             if (response == null)
-                return BadRequest(new { message = "Username or password is incorrect" });
+                return BadRequest(new { message = "Email or password is incorrect" });
 
             return Ok(response);
         }
@@ -38,7 +35,14 @@ namespace FullStack.API.Controllers
             return Ok(users);
         }
 
-        
+        [AllowAnonymous]
+        [HttpPost("newuser/register")]
+        public ActionResult<RegisterModel> Register(RegisterModel user)
+        {
+                _userService.Create(user, user.Password);
+                return Ok();
+        }
+
         [HttpGet("unsecure")]
         public IActionResult GetAllUnsecure()
         {

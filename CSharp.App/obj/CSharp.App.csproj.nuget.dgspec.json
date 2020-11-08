@@ -30,11 +30,20 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.DomainTests\\CSharp.DomainTests.csproj": {
+                "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.DomainTests\\CSharp.DomainTests.csproj"
+              },
               "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.Domain\\CSharp.Domain.csproj": {
                 "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.Domain\\CSharp.Domain.csproj"
               },
+              "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.API\\FullStack.API.csproj": {
+                "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.API\\FullStack.API.csproj"
+              },
               "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.Data\\FullStack.Data.csproj": {
                 "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.Data\\FullStack.Data.csproj"
+              },
+              "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels\\FullStack.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels\\FullStack.ViewModels.csproj"
               }
             }
           }
@@ -53,6 +62,86 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.DomainTests\\CSharp.DomainTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.DomainTests\\CSharp.DomainTests.csproj",
+        "projectName": "CSharp.DomainTests",
+        "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.DomainTests\\CSharp.DomainTests.csproj",
+        "packagesPath": "C:\\Users\\Guerschom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.DomainTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Guerschom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.Domain\\CSharp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.Domain\\CSharp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
             }
           },
           "imports": [
@@ -99,7 +188,14 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.Data\\FullStack.Data.csproj": {
+                "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.Data\\FullStack.Data.csproj"
+              },
+              "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels\\FullStack.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels\\FullStack.ViewModels.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -121,6 +217,106 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.API\\FullStack.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.API\\FullStack.API.csproj",
+        "projectName": "FullStack.API",
+        "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.API\\FullStack.API.csproj",
+        "packagesPath": "C:\\Users\\Guerschom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Guerschom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.Domain\\CSharp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.Domain\\CSharp.Domain.csproj"
+              },
+              "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.Data\\FullStack.Data.csproj": {
+                "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.Data\\FullStack.Data.csproj"
+              },
+              "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels\\FullStack.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels\\FullStack.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -187,6 +383,65 @@
               "version": "[3.1.9, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels\\FullStack.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels\\FullStack.ViewModels.csproj",
+        "projectName": "FullStack.ViewModels",
+        "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels\\FullStack.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\Guerschom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Guerschom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.Data\\FullStack.Data.csproj": {
+                "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.Data\\FullStack.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",

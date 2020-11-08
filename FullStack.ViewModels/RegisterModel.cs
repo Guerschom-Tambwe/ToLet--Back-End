@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FullStack.Data.Entities
+namespace FullStack.ViewModels
 {
-    public class User
+    public class RegisterModel
     {
-        public int Id { get; set; }
         public string Forenames { get; set; }
         public string Surname { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public string Role { get; set; } = "User";
+        public string ConfirmPassword { get; set; }
     }
 }

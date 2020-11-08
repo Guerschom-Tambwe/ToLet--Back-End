@@ -10,6 +10,7 @@ using FullStack.API.Helpers;
 using FullStack.ViewModels;
 using FullStack.Data.Entities;
 using FullStack.Data;
+using FluentValidation;
 
 namespace FullStack.API.Services
 {
@@ -18,6 +19,7 @@ namespace FullStack.API.Services
         AuthenticateResponse Authenticate(AuthenticateRequest model);
         IEnumerable<UserModel> GetAll();
         UserModel GetById(int id);
+        RegisterModel Create(RegisterModel user, string password);
     }
 
     public class UserService : IUserService
@@ -38,13 +40,13 @@ namespace FullStack.API.Services
             //*** Note about password. Never save clear text passwords in a database, for this test project it's ok, but change this before you show this project
             //to a potential employer ***
 
-            var user = _repo.GetUsers().SingleOrDefault(x => x.Username == model.Username && x.Password == model.Password);
+            var user = _repo.GetUsers().SingleOrDefault(x => x.Email == model.Email && x.Password == model.Password);
             
             // return null if user not found
             if (user == null) return null;
 
             //map from DB entity to UserModel for the front-end
-            var userModel = Map(user);
+            var userModel = MaptoUserModel(user);
 
             // authentication successful so generate jwt token
             var token = GenerateJwtToken(userModel);
@@ -57,7 +59,7 @@ namespace FullStack.API.Services
         {
             //only use for testing
             var userList = _repo.GetUsers();
-            return userList.Select(u => Map(u));
+            return userList.Select(u => MaptoUserModel(u));
         }
 
         public UserModel GetById(int id)
@@ -65,20 +67,56 @@ namespace FullStack.API.Services
             var userEntity = _repo.GetUser(id);
             if (userEntity == null) return null;
 
-            return Map(userEntity);
+            return MaptoUserModel(userEntity);
+        }
+
+
+        public RegisterModel Create(RegisterModel user, string password)
+        {
+            UserValidator validator = new UserValidator();
+            validator.ValidateAndThrow(user);
+
+            var newUser = MaptoUserEntity(user);
+
+            _repo.CreateUser(newUser);
+
+            return MaptoRegisterModel(newUser);
         }
 
         // helper methods
-        private UserModel Map(User user)
+        private UserModel MaptoUserModel(User user)
         {
             return new UserModel
             {
                 Id = user.Id,
-                FirstName = user.FirstName,
-                LastName = user.LastName,
-                Username = user.Username
+                Forenames = user.Forenames,
+                Surname = user.Surname,
+                Role = user.Role
             };
         }
+
+        private RegisterModel MaptoRegisterModel(User user)
+        {
+            return new RegisterModel
+            {
+                Forenames = user.Forenames,
+                Surname = user.Surname,
+                Email = user.Email,
+                Password = user.Password
+            };
+        }
+
+        private User MaptoUserEntity(RegisterModel user)
+        {
+            return new User
+            {
+                Forenames = user.Forenames,
+                Surname = user.Surname,
+                Password = user.Password,
+                Email = user.Email
+            };
+        }
+
 
 
         private string GenerateJwtToken(UserModel user)

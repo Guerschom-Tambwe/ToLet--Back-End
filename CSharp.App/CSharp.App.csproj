@@ -13,8 +13,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CSharp.DomainTests\CSharp.DomainTests.csproj" />
     <ProjectReference Include="..\CSharp.Domain\CSharp.Domain.csproj" />
+    <ProjectReference Include="..\FullStack.API\FullStack.API.csproj" />
     <ProjectReference Include="..\FullStack.Data\FullStack.Data.csproj" />
+    <ProjectReference Include="..\FullStack.ViewModels\FullStack.ViewModels.csproj" />
   </ItemGroup>
 
 </Project>

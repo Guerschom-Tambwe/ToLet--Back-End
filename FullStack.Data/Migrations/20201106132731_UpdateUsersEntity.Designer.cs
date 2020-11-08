@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FullStack.Data.Migrations
 {
     [DbContext(typeof(FullStackDbContext))]
-    [Migration("20201026084635_ClassPersistence")]
-    partial class ClassPersistence
+    [Migration("20201106132731_UpdateUsersEntity")]
+    partial class UpdateUsersEntity
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -45,85 +45,85 @@ namespace FullStack.Data.Migrations
                         new
                         {
                             InvoiceId = 1,
-                            InvoiceDate = new DateTimeOffset(new DateTime(2020, 10, 26, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
-                            InvoiceDueDate = new DateTimeOffset(new DateTime(2020, 11, 30, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDate = new DateTimeOffset(new DateTime(2020, 11, 25, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDueDate = new DateTimeOffset(new DateTime(2020, 12, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
                             InvoiceRefNumber = "invoice001"
                         },
                         new
                         {
                             InvoiceId = 2,
-                            InvoiceDate = new DateTimeOffset(new DateTime(2020, 11, 25, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
-                            InvoiceDueDate = new DateTimeOffset(new DateTime(2020, 12, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDate = new DateTimeOffset(new DateTime(2020, 12, 26, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
                             InvoiceRefNumber = "invoice002"
                         },
                         new
                         {
                             InvoiceId = 3,
-                            InvoiceDate = new DateTimeOffset(new DateTime(2020, 12, 26, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
-                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 1, 26, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
                             InvoiceRefNumber = "invoice003"
                         },
                         new
                         {
                             InvoiceId = 4,
-                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 1, 26, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
-                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 2, 28, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 2, 23, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 3, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
                             InvoiceRefNumber = "invoice004"
                         },
                         new
                         {
                             InvoiceId = 5,
-                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 2, 23, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
-                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 3, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 3, 26, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 4, 30, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
                             InvoiceRefNumber = "invoice005"
                         },
                         new
                         {
                             InvoiceId = 6,
-                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 3, 26, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
-                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 4, 30, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 4, 25, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 5, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
                             InvoiceRefNumber = "invoice006"
                         },
                         new
                         {
                             InvoiceId = 7,
-                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 4, 25, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
-                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 5, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 5, 26, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 6, 30, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
                             InvoiceRefNumber = "invoice007"
                         },
                         new
                         {
                             InvoiceId = 8,
-                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 5, 26, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
-                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 6, 30, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 6, 25, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 7, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
                             InvoiceRefNumber = "invoice008"
                         },
                         new
                         {
                             InvoiceId = 9,
-                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 6, 25, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
-                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 7, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 7, 26, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 8, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
                             InvoiceRefNumber = "invoice009"
                         },
                         new
                         {
                             InvoiceId = 10,
-                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 7, 26, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
-                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 8, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 8, 26, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 9, 30, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
                             InvoiceRefNumber = "invoice010"
                         },
                         new
                         {
                             InvoiceId = 11,
-                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 8, 26, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
-                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 9, 30, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 9, 25, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 10, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
                             InvoiceRefNumber = "invoice011"
                         },
                         new
                         {
                             InvoiceId = 12,
-                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 9, 25, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
-                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 10, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDate = new DateTimeOffset(new DateTime(2021, 10, 26, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
+                            InvoiceDueDate = new DateTimeOffset(new DateTime(2021, 11, 30, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 2, 0, 0, 0)),
                             InvoiceRefNumber = "invoice012"
                         });
                 });
@@ -385,6 +385,53 @@ namespace FullStack.Data.Migrations
                             HoursWorked = 200m,
                             InvoiceId = 12,
                             RatePerHour = 400m
+                        });
+                });
+
+            modelBuilder.Entity("FullStack.Data.Entities.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Forenames")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Role")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Surname")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Email = "admin@test.com",
+                            Forenames = "Admin",
+                            Password = "administration",
+                            Role = "Admin",
+                            Surname = "User"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Email = "anthonyCoder@gmail.com",
+                            Forenames = "Anthony",
+                            Password = "administration",
+                            Role = "User",
+                            Surname = "Coder"
                         });
                 });
 

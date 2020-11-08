@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using FullStack.Data;
 using Microsoft.EntityFrameworkCore;
+using FluentValidation.AspNetCore;
 
 namespace FullStack.API
 {
@@ -22,21 +23,24 @@ namespace FullStack.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors();
-            services.AddControllers();
+            services.AddControllers().AddFluentValidation(opt =>
+            {
+                opt.RegisterValidatorsFromAssemblyContaining(typeof(UserValidator));
+            });
 
             // configure strongly typed settings object
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
 
             //TODO: Add the DbContext and repositoy
-
-            services.AddDbContext<FullStackDbContext>(options => options.UseSqlServer("Data Source=LAPTOP-R8498E5C;Initial Catalog=InvoiceAppData;Integrated Security=True"));
+                  
+            services.AddDbContext<FullStackDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MyConnection")));
             services.AddScoped<IFullStackRepository, FullStackRepository>();
             
 
             // configure DI for application services
             services.AddScoped<IUserService, UserService>();
-            services.AddScoped<IInvoiceService, InvoiceService>();
-            services.AddScoped<IInvoiceItemService, InvoiceItemService>();
+            //services.AddScoped<IInvoiceService, InvoiceService>();
+            //services.AddScoped<IInvoiceItemService, InvoiceItemService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
