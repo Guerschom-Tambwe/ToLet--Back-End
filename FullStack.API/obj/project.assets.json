@@ -8907,11 +8907,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Guerschom\\Downloads\\CSharp-Practical-practical4\\CSharp-Practical-practical4\\FullStack.API\\FullStack.API.csproj",
+      "projectUniqueName": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.API\\FullStack.API.csproj",
       "projectName": "FullStack.API",
-      "projectPath": "C:\\Users\\Guerschom\\Downloads\\CSharp-Practical-practical4\\CSharp-Practical-practical4\\FullStack.API\\FullStack.API.csproj",
+      "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.API\\FullStack.API.csproj",
       "packagesPath": "C:\\Users\\Guerschom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Guerschom\\Downloads\\CSharp-Practical-practical4\\CSharp-Practical-practical4\\FullStack.API\\obj\\",
+      "outputPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8930,14 +8930,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Guerschom\\Downloads\\CSharp-Practical-practical4\\CSharp-Practical-practical4\\CSharp.Domain\\CSharp.Domain.csproj": {
-              "projectPath": "C:\\Users\\Guerschom\\Downloads\\CSharp-Practical-practical4\\CSharp-Practical-practical4\\CSharp.Domain\\CSharp.Domain.csproj"
+            "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.Domain\\CSharp.Domain.csproj": {
+              "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.Domain\\CSharp.Domain.csproj"
             },
-            "C:\\Users\\Guerschom\\Downloads\\CSharp-Practical-practical4\\CSharp-Practical-practical4\\FullStack.Data\\FullStack.Data.csproj": {
-              "projectPath": "C:\\Users\\Guerschom\\Downloads\\CSharp-Practical-practical4\\CSharp-Practical-practical4\\FullStack.Data\\FullStack.Data.csproj"
+            "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.Data\\FullStack.Data.csproj": {
+              "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.Data\\FullStack.Data.csproj"
             },
-            "C:\\Users\\Guerschom\\Downloads\\CSharp-Practical-practical4\\CSharp-Practical-practical4\\FullStack.ViewModels\\FullStack.ViewModels.csproj": {
-              "projectPath": "C:\\Users\\Guerschom\\Downloads\\CSharp-Practical-practical4\\CSharp-Practical-practical4\\FullStack.ViewModels\\FullStack.ViewModels.csproj"
+            "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels\\FullStack.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels\\FullStack.ViewModels.csproj"
             }
           }
         }

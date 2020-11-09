@@ -1,9 +1,0 @@
-C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels2\bin\Debug\netstandard2.0\FullStack.ViewModels2.deps.json
-C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels2\bin\Debug\netstandard2.0\FullStack.ViewModels2.dll
-C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels2\bin\Debug\netstandard2.0\FullStack.ViewModels2.pdb
-C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels2\obj\Debug\netstandard2.0\FullStack.ViewModels2.csprojAssemblyReference.cache
-C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels2\obj\Debug\netstandard2.0\FullStack.ViewModels2.AssemblyInfoInputs.cache
-C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels2\obj\Debug\netstandard2.0\FullStack.ViewModels2.AssemblyInfo.cs
-C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels2\obj\Debug\netstandard2.0\FullStack.ViewModels2.csproj.CoreCompileInputs.cache
-C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels2\obj\Debug\netstandard2.0\FullStack.ViewModels2.dll
-C:\Users\Guerschom\Documents\CSharpProject\FullStack.ViewModels2\obj\Debug\netstandard2.0\FullStack.ViewModels2.pdb
