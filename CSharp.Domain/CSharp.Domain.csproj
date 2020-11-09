@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FullStack.Data\FullStack.Data.csproj" />
+    <ProjectReference Include="..\FullStack.ViewModels\FullStack.ViewModels.csproj" />
+  </ItemGroup>
+
 </Project>

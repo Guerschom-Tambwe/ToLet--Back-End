@@ -7,9 +7,20 @@ namespace CSharp.Domain
     public class InvoiceItem
     {
         public string Description { get; set; }
-        public double RatePerHour { get; set; }
-        public double HoursWorked { get; set; }
-        public double Amount { get; set; }
+        public decimal RatePerHour { get; set; } = 0m;
+        public decimal HoursWorked { get; set; }
+        public decimal TotalAmount => this.RatePerHour * this.HoursWorked;
+        
 
+        public static InvoiceItem Create(string description, decimal ratePerHour, decimal hoursWorked)
+        {
+            return new InvoiceItem
+            {
+                Description = description,
+                HoursWorked = hoursWorked,
+                RatePerHour = ratePerHour,
+            };
+
+    }
     }
 }

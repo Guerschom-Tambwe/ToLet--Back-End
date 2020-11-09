@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b+Lhzc0YN8pH0VkmlNKR/xTbFn6HHSCgZ8qlMhyr5e/l0ITcp/haaPwVZ0ELdKwvMX6OmZHEZ8T3shrw4IJ25A==",
+  "dgSpecHash": "BigEB3BnjyiCEiPCT6zyNS12qfmlLOQhaZ0ruicaID5h4fFv+uNt7c9VcvH8qHSA0g0ys9aqMCziDb65UdAPUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels2\\FullStack.ViewModels2.csproj",
+  "projectFilePath": "C:\\Users\\Guerschom\\Downloads\\CSharp-Practical-practical4\\CSharp-Practical-practical4\\FullStack.ViewModels2\\FullStack.ViewModels2.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

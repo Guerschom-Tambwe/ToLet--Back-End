@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels2\\FullStack.ViewModels2.csproj",
+      "projectUniqueName": "C:\\Users\\Guerschom\\Downloads\\CSharp-Practical-practical4\\CSharp-Practical-practical4\\FullStack.ViewModels2\\FullStack.ViewModels2.csproj",
       "projectName": "FullStack.ViewModels2",
-      "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels2\\FullStack.ViewModels2.csproj",
+      "projectPath": "C:\\Users\\Guerschom\\Downloads\\CSharp-Practical-practical4\\CSharp-Practical-practical4\\FullStack.ViewModels2\\FullStack.ViewModels2.csproj",
       "packagesPath": "C:\\Users\\Guerschom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels2\\obj\\",
+      "outputPath": "C:\\Users\\Guerschom\\Downloads\\CSharp-Practical-practical4\\CSharp-Practical-practical4\\FullStack.ViewModels2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

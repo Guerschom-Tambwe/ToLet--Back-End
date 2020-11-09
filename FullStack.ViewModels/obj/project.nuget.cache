@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C+GUBMbNQE5RNtKKcq3PmcBALWU3A0RvicjFwK+XklZ6H3f4BTTsFUCOHdXL6dTuDU33wrWY9O0SpHJIcFMFpg==",
+  "dgSpecHash": "1zEyBXv7uEH8Ln8I1tFZ3jWD0YtsiuxfJJGl93ORie3fSqllhbfOgvSnKk0o25kGQrooailAEPrg/Pkh1R6dXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels\\FullStack.ViewModels.csproj",
+  "projectFilePath": "C:\\Users\\Guerschom\\Downloads\\CSharp-Practical-practical4\\CSharp-Practical-practical4\\FullStack.ViewModels\\FullStack.ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Guerschom\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Guerschom\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
