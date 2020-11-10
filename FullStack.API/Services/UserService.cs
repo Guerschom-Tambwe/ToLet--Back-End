@@ -19,7 +19,7 @@ namespace FullStack.API.Services
         AuthenticateResponse Authenticate(AuthenticateRequest model);
         IEnumerable<UserModel> GetAll();
         UserModel GetById(int id);
-        RegisterModel Create(RegisterModel user, string password);
+        RegisterModel Create(RegisterModel user);
     }
 
     public class UserService : IUserService
@@ -71,12 +71,16 @@ namespace FullStack.API.Services
         }
 
 
-        public RegisterModel Create(RegisterModel user, string password)
+        public RegisterModel Create(RegisterModel user)
         {
+            //"Just In case" Validation
             UserValidator validator = new UserValidator();
             validator.ValidateAndThrow(user);
 
             var newUser = MaptoUserEntity(user);
+
+            if (_repo.GetUsers().Any(x => x.Email == user.Email))
+                throw new AppException("Email \"" + user.Email + "\" is already taken");
 
             _repo.CreateUser(newUser);
 
@@ -116,8 +120,6 @@ namespace FullStack.API.Services
                 Email = user.Email
             };
         }
-
-
 
         private string GenerateJwtToken(UserModel user)
         {

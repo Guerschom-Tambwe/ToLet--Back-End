@@ -26,3 +26,17 @@ C:\Users\Guerschom\Downloads\CSharp-Practical-practical4\CSharp-Practical-practi
 C:\Users\Guerschom\Downloads\CSharp-Practical-practical4\CSharp-Practical-practical4\CSharp.Domain\obj\Debug\netcoreapp3.1\CSharp.Domain.csproj.CopyComplete
 C:\Users\Guerschom\Downloads\CSharp-Practical-practical4\CSharp-Practical-practical4\CSharp.Domain\obj\Debug\netcoreapp3.1\CSharp.Domain.dll
 C:\Users\Guerschom\Downloads\CSharp-Practical-practical4\CSharp-Practical-practical4\CSharp.Domain\obj\Debug\netcoreapp3.1\CSharp.Domain.pdb
+C:\Users\Guerschom\Pictures\CSharp-Practical\CSharp.Domain\bin\Debug\netcoreapp3.1\CSharp.Domain.deps.json
+C:\Users\Guerschom\Pictures\CSharp-Practical\CSharp.Domain\bin\Debug\netcoreapp3.1\CSharp.Domain.dll
+C:\Users\Guerschom\Pictures\CSharp-Practical\CSharp.Domain\bin\Debug\netcoreapp3.1\CSharp.Domain.pdb
+C:\Users\Guerschom\Pictures\CSharp-Practical\CSharp.Domain\bin\Debug\netcoreapp3.1\FullStack.Data.dll
+C:\Users\Guerschom\Pictures\CSharp-Practical\CSharp.Domain\bin\Debug\netcoreapp3.1\FullStack.ViewModels.dll
+C:\Users\Guerschom\Pictures\CSharp-Practical\CSharp.Domain\bin\Debug\netcoreapp3.1\FullStack.Data.pdb
+C:\Users\Guerschom\Pictures\CSharp-Practical\CSharp.Domain\bin\Debug\netcoreapp3.1\FullStack.ViewModels.pdb
+C:\Users\Guerschom\Pictures\CSharp-Practical\CSharp.Domain\obj\Debug\netcoreapp3.1\CSharp.Domain.csprojAssemblyReference.cache
+C:\Users\Guerschom\Pictures\CSharp-Practical\CSharp.Domain\obj\Debug\netcoreapp3.1\CSharp.Domain.AssemblyInfoInputs.cache
+C:\Users\Guerschom\Pictures\CSharp-Practical\CSharp.Domain\obj\Debug\netcoreapp3.1\CSharp.Domain.AssemblyInfo.cs
+C:\Users\Guerschom\Pictures\CSharp-Practical\CSharp.Domain\obj\Debug\netcoreapp3.1\CSharp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Guerschom\Pictures\CSharp-Practical\CSharp.Domain\obj\Debug\netcoreapp3.1\CSharp.Domain.csproj.CopyComplete
+C:\Users\Guerschom\Pictures\CSharp-Practical\CSharp.Domain\obj\Debug\netcoreapp3.1\CSharp.Domain.dll
+C:\Users\Guerschom\Pictures\CSharp-Practical\CSharp.Domain\obj\Debug\netcoreapp3.1\CSharp.Domain.pdb

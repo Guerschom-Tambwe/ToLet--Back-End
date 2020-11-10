@@ -92,27 +92,6 @@ namespace FullStack.Data
             return invoice;
         }
 
-       /* public User Create(User user, string password)
-        {
-            // validation
-            if (string.IsNullOrWhiteSpace(password))
-                throw new AppException("Password is required");
-
-            if (_context.Users.Any(x => x.Username == user.Username))
-                throw new AppException("Username \"" + user.Username + "\" is already taken");
-
-            byte[] passwordHash, passwordSalt;
-            CreatePasswordHash(password, out passwordHash, out passwordSalt);
-
-            user.PasswordHash = passwordHash;
-            user.PasswordSalt = passwordSalt;
-
-            _context.Users.Add(user);
-            _context.SaveChanges();
-
-            return user;
-        }*/
-
         public void DeleteInvoice(int id)
         {
 
@@ -176,17 +155,3 @@ namespace FullStack.Data
         }
     }
 }
-
-/*
- * 
- * // Custom exception class for throwing application specific exceptions (e.g. for validation) 
-    // that can be caught and handled within the application
- public AppException() : base() {}
-
-        public AppException(string message) : base(message) { }
-
-        public AppException(string message, params object[] args) 
-            : base(String.Format(CultureInfo.CurrentCulture, message, args))
-        {
-        }
- */

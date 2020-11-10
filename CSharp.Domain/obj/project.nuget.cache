@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "retgEJjmkiDhrRVxx/yXUKmJQNiAYp1ZBUVwtlz27wwYTwW1mOHrtHwfekvRvHTCV3n0DINiYVgRZfX8sDlQFA==",
+  "dgSpecHash": "JvyivkLofEdMmVSGdUAIQ6rV7QdWxGrLU55wD5dXildE+4iMo50cXnhM52fuR9sDi70xsIHtBFF2SZ6itL/Yug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.Domain\\CSharp.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\CSharp.Domain\\CSharp.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Guerschom\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Guerschom\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

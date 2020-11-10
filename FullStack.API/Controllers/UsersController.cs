@@ -2,6 +2,8 @@
 using FullStack.API.Services;
 using FullStack.ViewModels;
 using Microsoft.AspNetCore.Authorization;
+using System.Linq;
+using FluentValidation;
 using FullStack.API.Helpers;
 
 namespace FullStack.API.Controllers
@@ -22,7 +24,7 @@ namespace FullStack.API.Controllers
             var response = _userService.Authenticate(model);
 
             if (response == null)
-                return BadRequest(new { message = "Email or password is incorrect" });
+            return BadRequest(new { message = "Email or password is incorrect" });
 
             return Ok(response);
         }
@@ -37,10 +39,20 @@ namespace FullStack.API.Controllers
 
         [AllowAnonymous]
         [HttpPost("newuser/register")]
-        public ActionResult<RegisterModel> Register(RegisterModel user)
+        public ActionResult<RegisterModel> Register([FromBody] RegisterModel user)
         {
-                _userService.Create(user, user.Password);
+
+            try
+            {
+                // create user
+                _userService.Create(user);
                 return Ok();
+            }
+            catch (AppException ex)
+            {
+                // return error message if there was an exception
+                return BadRequest(new { message = ex.Message });
+            }
         }
 
         [HttpGet("unsecure")]

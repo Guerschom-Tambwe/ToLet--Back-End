@@ -17,7 +17,6 @@ namespace FullStack.Data.Entities
         public string InvoiceRefNumber { get; set; }
         public DateTimeOffset InvoiceDueDate { get; set; }
         public List<InvoiceItem> InvoiceItems { get; set; }
-
         public decimal TotalInvoiceAmount => this.InvoiceItems.Sum(inv => inv.TotalAmount);
 
         public DateTimeOffset CalculateInvoiceDate(int nthMonth)

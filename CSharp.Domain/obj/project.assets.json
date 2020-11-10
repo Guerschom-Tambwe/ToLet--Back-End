@@ -5650,11 +5650,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.Domain\\CSharp.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\CSharp.Domain\\CSharp.Domain.csproj",
       "projectName": "CSharp.Domain",
-      "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.Domain\\CSharp.Domain.csproj",
+      "projectPath": "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\CSharp.Domain\\CSharp.Domain.csproj",
       "packagesPath": "C:\\Users\\Guerschom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\CSharp.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5673,11 +5673,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.Data\\FullStack.Data.csproj": {
-              "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.Data\\FullStack.Data.csproj"
+            "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\FullStack.Data\\FullStack.Data.csproj": {
+              "projectPath": "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\FullStack.Data\\FullStack.Data.csproj"
             },
-            "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels\\FullStack.ViewModels.csproj": {
-              "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.ViewModels\\FullStack.ViewModels.csproj"
+            "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\FullStack.ViewModels\\FullStack.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\FullStack.ViewModels\\FullStack.ViewModels.csproj"
             }
           }
         }

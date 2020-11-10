@@ -5668,11 +5668,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.App\\CSharp.App.csproj",
+      "projectUniqueName": "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\CSharp.App\\CSharp.App.csproj",
       "projectName": "CSharp.App",
-      "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.App\\CSharp.App.csproj",
+      "projectPath": "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\CSharp.App\\CSharp.App.csproj",
       "packagesPath": "C:\\Users\\Guerschom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.App\\obj\\",
+      "outputPath": "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\CSharp.App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5691,8 +5691,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.Domain\\CSharp.Domain.csproj": {
-              "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\CSharp.Domain\\CSharp.Domain.csproj"
+            "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\CSharp.Domain\\CSharp.Domain.csproj": {
+              "projectPath": "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\CSharp.Domain\\CSharp.Domain.csproj"
             }
           }
         }

@@ -24,6 +24,7 @@ namespace FullStack.Data
                     Surname = "User",
                     Email ="admin@test.com",
                     Password = "administration",
+                    ConfirmPassword = "administration",
                     Role = "Admin"
                 },
                 new User
@@ -33,6 +34,7 @@ namespace FullStack.Data
                     Surname = "Coder",
                     Email = "anthonyCoder@gmail.com",
                     Password = "administration",
+                    ConfirmPassword = "administration",
                     Role = "User"
                 }
                 );

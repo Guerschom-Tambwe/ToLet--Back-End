@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.Data\\FullStack.Data.csproj": {}
+    "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\FullStack.Data\\FullStack.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.Data\\FullStack.Data.csproj": {
+    "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\FullStack.Data\\FullStack.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.Data\\FullStack.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\FullStack.Data\\FullStack.Data.csproj",
         "projectName": "FullStack.Data",
-        "projectPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.Data\\FullStack.Data.csproj",
+        "projectPath": "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\FullStack.Data\\FullStack.Data.csproj",
         "packagesPath": "C:\\Users\\Guerschom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guerschom\\Documents\\CSharpProject\\FullStack.Data\\obj\\",
+        "outputPath": "C:\\Users\\Guerschom\\Pictures\\CSharp-Practical\\FullStack.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
