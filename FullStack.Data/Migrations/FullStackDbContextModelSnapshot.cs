@@ -19,6 +19,288 @@ namespace FullStack.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("FullStack.Data.Entities.Advert", b =>
+                {
+                    b.Property<int>("AdvertId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("AdvertDetails")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("AdvertStatus")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Headline")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(10,2)");
+
+                    b.Property<string>("Province")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTimeOffset>("PublishedDate")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("AdvertId");
+
+                    b.ToTable("Adverts");
+
+                    b.HasData(
+                        new
+                        {
+                            AdvertId = 1,
+                            AdvertDetails = "This is the very first advert",
+                            AdvertStatus = "LIVE",
+                            City = "Belville",
+                            Headline = "Very First Headline",
+                            Price = 12.98m,
+                            Province = "Western Cape",
+                            PublishedDate = new DateTimeOffset(new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, 0, 0, 0, 0)),
+                            UserId = 2
+                        });
+                });
+
+            modelBuilder.Entity("FullStack.Data.Entities.City", b =>
+                {
+                    b.Property<int>("CityId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("CityName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProvinceId")
+                        .HasColumnType("int");
+
+                    b.HasKey("CityId");
+
+                    b.HasIndex("ProvinceId");
+
+                    b.ToTable("Cities");
+
+                    b.HasData(
+                        new
+                        {
+                            CityId = 1,
+                            CityName = "Alice",
+                            ProvinceId = 7
+                        },
+                        new
+                        {
+                            CityId = 2,
+                            CityName = "Port Elizabeth",
+                            ProvinceId = 7
+                        },
+                        new
+                        {
+                            CityId = 3,
+                            CityName = "Graham's Town",
+                            ProvinceId = 7
+                        },
+                        new
+                        {
+                            CityId = 4,
+                            CityName = "East London",
+                            ProvinceId = 7
+                        },
+                        new
+                        {
+                            CityId = 5,
+                            CityName = "Parys",
+                            ProvinceId = 5
+                        },
+                        new
+                        {
+                            CityId = 6,
+                            CityName = "Bloemfontein",
+                            ProvinceId = 5
+                        },
+                        new
+                        {
+                            CityId = 7,
+                            CityName = "Virginia",
+                            ProvinceId = 5
+                        },
+                        new
+                        {
+                            CityId = 8,
+                            CityName = "Welkom",
+                            ProvinceId = 5
+                        },
+                        new
+                        {
+                            CityId = 9,
+                            CityName = "Rustenberg",
+                            ProvinceId = 3
+                        },
+                        new
+                        {
+                            CityId = 10,
+                            CityName = "Mahikeng",
+                            ProvinceId = 3
+                        },
+                        new
+                        {
+                            CityId = 11,
+                            CityName = "Klerksdorp",
+                            ProvinceId = 3
+                        },
+                        new
+                        {
+                            CityId = 12,
+                            CityName = "Mmabatho",
+                            ProvinceId = 3
+                        },
+                        new
+                        {
+                            CityId = 13,
+                            CityName = "Kimberly",
+                            ProvinceId = 2
+                        },
+                        new
+                        {
+                            CityId = 14,
+                            CityName = "Kuruman",
+                            ProvinceId = 2
+                        },
+                        new
+                        {
+                            CityId = 15,
+                            CityName = "Port Nolloth",
+                            ProvinceId = 2
+                        },
+                        new
+                        {
+                            CityId = 16,
+                            CityName = "Boksburg",
+                            ProvinceId = 4
+                        },
+                        new
+                        {
+                            CityId = 17,
+                            CityName = "Brakpan",
+                            ProvinceId = 4
+                        },
+                        new
+                        {
+                            CityId = 18,
+                            CityName = "Carletonville",
+                            ProvinceId = 4
+                        },
+                        new
+                        {
+                            CityId = 19,
+                            CityName = "Johannesburg",
+                            ProvinceId = 4
+                        },
+                        new
+                        {
+                            CityId = 20,
+                            CityName = "Musina",
+                            ProvinceId = 6
+                        },
+                        new
+                        {
+                            CityId = 21,
+                            CityName = "Polokwane",
+                            ProvinceId = 6
+                        },
+                        new
+                        {
+                            CityId = 22,
+                            CityName = "Lebowakgomo",
+                            ProvinceId = 6
+                        },
+                        new
+                        {
+                            CityId = 23,
+                            CityName = "Sibasa",
+                            ProvinceId = 6
+                        },
+                        new
+                        {
+                            CityId = 24,
+                            CityName = "Phalaborwa",
+                            ProvinceId = 6
+                        },
+                        new
+                        {
+                            CityId = 25,
+                            CityName = "Durban",
+                            ProvinceId = 8
+                        },
+                        new
+                        {
+                            CityId = 26,
+                            CityName = "Pinetown",
+                            ProvinceId = 8
+                        },
+                        new
+                        {
+                            CityId = 27,
+                            CityName = "Pietermaritzburg",
+                            ProvinceId = 8
+                        },
+                        new
+                        {
+                            CityId = 28,
+                            CityName = "Umlazi",
+                            ProvinceId = 8
+                        },
+                        new
+                        {
+                            CityId = 29,
+                            CityName = "Bellville",
+                            ProvinceId = 1
+                        },
+                        new
+                        {
+                            CityId = 30,
+                            CityName = "Cape Town",
+                            ProvinceId = 1
+                        },
+                        new
+                        {
+                            CityId = 31,
+                            CityName = "Paarl",
+                            ProvinceId = 1
+                        },
+                        new
+                        {
+                            CityId = 32,
+                            CityName = "Simon's Town",
+                            ProvinceId = 1
+                        },
+                        new
+                        {
+                            CityId = 33,
+                            CityName = "Nelspruit",
+                            ProvinceId = 9
+                        },
+                        new
+                        {
+                            CityId = 34,
+                            CityName = "Secunda",
+                            ProvinceId = 9
+                        },
+                        new
+                        {
+                            CityId = 35,
+                            CityName = "Emulahleni",
+                            ProvinceId = 9
+                        });
+                });
+
             modelBuilder.Entity("FullStack.Data.Entities.Invoice", b =>
                 {
                     b.Property<int>("InvoiceId")
@@ -64,6 +346,68 @@ namespace FullStack.Data.Migrations
                     b.HasIndex("InvoiceId");
 
                     b.ToTable("InvoiceItems");
+                });
+
+            modelBuilder.Entity("FullStack.Data.Entities.Province", b =>
+                {
+                    b.Property<int>("ProvinceId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("ProvinceName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ProvinceId");
+
+                    b.ToTable("Provinces");
+
+                    b.HasData(
+                        new
+                        {
+                            ProvinceId = 1,
+                            ProvinceName = "Western Cape"
+                        },
+                        new
+                        {
+                            ProvinceId = 2,
+                            ProvinceName = "Northern Cape"
+                        },
+                        new
+                        {
+                            ProvinceId = 3,
+                            ProvinceName = "North West"
+                        },
+                        new
+                        {
+                            ProvinceId = 4,
+                            ProvinceName = "Gauteng"
+                        },
+                        new
+                        {
+                            ProvinceId = 5,
+                            ProvinceName = "Free State"
+                        },
+                        new
+                        {
+                            ProvinceId = 6,
+                            ProvinceName = "Limpop"
+                        },
+                        new
+                        {
+                            ProvinceId = 7,
+                            ProvinceName = "Eastern Cape"
+                        },
+                        new
+                        {
+                            ProvinceId = 8,
+                            ProvinceName = "Kwazulu-Natal"
+                        },
+                        new
+                        {
+                            ProvinceId = 9,
+                            ProvinceName = "Mpumalangae"
+                        });
                 });
 
             modelBuilder.Entity("FullStack.Data.Entities.User", b =>
@@ -116,6 +460,15 @@ namespace FullStack.Data.Migrations
                             Role = "User",
                             Surname = "Coder"
                         });
+                });
+
+            modelBuilder.Entity("FullStack.Data.Entities.City", b =>
+                {
+                    b.HasOne("FullStack.Data.Entities.Province", "Province")
+                        .WithMany("Cities")
+                        .HasForeignKey("ProvinceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("FullStack.Data.Entities.InvoiceItem", b =>

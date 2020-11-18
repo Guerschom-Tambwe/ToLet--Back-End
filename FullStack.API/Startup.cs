@@ -28,6 +28,10 @@ namespace FullStack.API
                 opt.RegisterValidatorsFromAssemblyContaining(typeof(UserValidator));
             });
 
+            services.AddControllers().AddNewtonsoftJson(options =>
+            options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+            );
+
             // configure strongly typed settings object
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
 
@@ -39,6 +43,8 @@ namespace FullStack.API
 
             // configure DI for application services
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IProvinceService, ProvinceService>();
+            services.AddScoped<IAdvertService, AdvertService>();
             //services.AddScoped<IInvoiceService, InvoiceService>();
             //services.AddScoped<IInvoiceItemService, InvoiceItemService>();
         }

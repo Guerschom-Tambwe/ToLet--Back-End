@@ -30,7 +30,7 @@ C:\Users\Guerschom\Pictures\CSharp-Practical\FullStack.Data\bin\Debug\netcoreapp
 C:\Users\Guerschom\Pictures\CSharp-Practical\FullStack.Data\obj\Debug\netcoreapp3.1\FullStack.Data.csprojAssemblyReference.cache
 C:\Users\Guerschom\Pictures\CSharp-Practical\FullStack.Data\obj\Debug\netcoreapp3.1\FullStack.Data.AssemblyInfoInputs.cache
 C:\Users\Guerschom\Pictures\CSharp-Practical\FullStack.Data\obj\Debug\netcoreapp3.1\FullStack.Data.AssemblyInfo.cs
-C:\Users\Guerschom\Pictures\CSharp-Practical\FullStack.Data\obj\Debug\netcoreapp3.1\FullStack.Data.csproj.CoreCompileInputs.cache
 C:\Users\Guerschom\Pictures\CSharp-Practical\FullStack.Data\obj\Debug\netcoreapp3.1\FullStack.Data.dll
 C:\Users\Guerschom\Pictures\CSharp-Practical\FullStack.Data\obj\Debug\netcoreapp3.1\FullStack.Data.pdb
 C:\Users\Guerschom\Pictures\CSharp-Practical\FullStack.Data\obj\Debug\netcoreapp3.1\FullStack.Data.genruntimeconfig.cache
+C:\Users\Guerschom\Pictures\CSharp-Practical\FullStack.Data\obj\Debug\netcoreapp3.1\FullStack.Data.csproj.CoreCompileInputs.cache

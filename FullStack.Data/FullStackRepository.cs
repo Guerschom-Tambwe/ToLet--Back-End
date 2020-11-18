@@ -26,6 +26,26 @@ namespace FullStack.Data
         InvoiceItem UpdateInvoiceItem(InvoiceItem invoiceItem);
         void DeleteInvoiceItem(int id);
 
+        Province GetProvince(int id);
+        Province GetCityFromProvice(string provinceName);
+        List<Province> GetProvices();
+        Province AddProvince(Province province);
+        Province UpdateProvince(Province province);
+        void DeleteProvince(int id);
+
+        Advert GetAdvert(int id);
+        List<Advert> GetAdverts();
+
+        Advert CreateAdvert(Advert advert);
+        Advert UpdateAdvert(Advert advert);
+        void DeleteAdvert(int id);
+
+        City GetCity(int id);
+        List<City> GetCities();
+        City AddCity(City city);
+        City UpdateCity(City city);
+        void DeleteCity(int id);
+
         //Do the same for all the other entities, Invoices, Invoice Items, etc
 
     }
@@ -152,6 +172,113 @@ namespace FullStack.Data
             _ctx.InvoiceItems.Add(invoiceItem);
             _ctx.SaveChanges();
             return invoiceItem;
+        }
+
+
+       public Province GetProvince(int id)
+        {
+            return _ctx.Provinces.Where(i => i.ProvinceId == id).Include(i => i.Cities).FirstOrDefault();
+        }
+
+        public Province GetCityFromProvice(string provinceName)
+        {
+            return _ctx.Provinces.Where(i => i.ProvinceName == provinceName).Include(i => i.Cities).FirstOrDefault();
+        }
+
+        public List<Province> GetProvices()
+        {
+            return _ctx.Provinces.Include(i => i.Cities).ToList();
+        }
+        public Province AddProvince(Province province)
+        {
+            _ctx.Provinces.Add(province);
+            _ctx.SaveChanges();
+            return province;
+        }
+        public Province UpdateProvince(Province province)
+        {
+            var existing = _ctx.Provinces.SingleOrDefault(em => em.ProvinceId == province.ProvinceId);
+            if (existing == null) return null;
+
+            _ctx.Entry(existing).State = EntityState.Detached;
+            _ctx.Provinces.Attach(province);
+            _ctx.Entry(province).State = EntityState.Modified;
+            _ctx.SaveChanges();
+
+            return province;
+        }
+        public void DeleteProvince(int id)
+        {
+            var entity = _ctx.Provinces.Find(id);
+            _ctx.Provinces.Remove(entity);
+            _ctx.SaveChanges();
+        }
+
+        public Advert GetAdvert(int id)
+        {
+            return _ctx.Adverts.Find(id);
+        }
+
+        public List<Advert> GetAdverts()
+        {
+            return _ctx.Adverts.ToList();
+        }
+        public Advert CreateAdvert(Advert advert)  
+        {
+            _ctx.Adverts.Add(advert);
+            _ctx.SaveChanges();
+            return advert;
+        }
+        public Advert UpdateAdvert(Advert advert)
+        {
+            var existing = _ctx.Adverts.SingleOrDefault(em => em.AdvertId == advert.AdvertId);
+            if (existing == null) return null;
+
+            _ctx.Entry(existing).State = EntityState.Detached;
+            _ctx.Adverts.Attach(advert);
+            _ctx.Entry(advert).State = EntityState.Modified;
+            _ctx.SaveChanges();
+
+            return advert;
+        }
+        public void DeleteAdvert(int id)
+        {
+            var entity = _ctx.Adverts.Find(id);
+            _ctx.Adverts.Remove(entity);
+            _ctx.SaveChanges();
+        }
+
+        public City GetCity(int id)
+        {
+            return _ctx.Cities.Find(id);
+        }
+        public List<City> GetCities()
+        {
+            return _ctx.Cities.ToList();
+        }
+        public City AddCity(City city)
+        {
+            _ctx.Cities.Add(city);
+            _ctx.SaveChanges();
+            return city;
+        }
+        public City UpdateCity(City city)
+        {
+            var existing = _ctx.Cities.SingleOrDefault(em => em.CityId == city.CityId);
+            if (existing == null) return null;
+
+            _ctx.Entry(existing).State = EntityState.Detached;
+            _ctx.Cities.Attach(city);
+            _ctx.Entry(city).State = EntityState.Modified;
+            _ctx.SaveChanges();
+
+            return city;
+        }
+        public void DeleteCity(int id)
+        {
+            var entity = _ctx.Cities.Find(id);
+            _ctx.Cities.Remove(entity);
+            _ctx.SaveChanges();
         }
     }
 }

@@ -16,7 +16,6 @@ namespace FullStack.API.Helpers
             RuleFor(user => user.Forenames).NotEmpty().MinimumLength(1).MaximumLength(100);
             RuleFor(user => user.Email).NotEmpty().EmailAddress().MinimumLength(6).MaximumLength(100);
             RuleFor(user => user.Password).NotEmpty().MinimumLength(8).MaximumLength(100);
-            RuleFor(user => user.ConfirmPassword).Equal(user => user.Password);
             //RuleFor(user => user.Email).Equal()
         }
     }
