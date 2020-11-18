@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FullStack.Data.Entities
 {
@@ -8,9 +6,13 @@ namespace FullStack.Data.Entities
     {
         public int InvoiceItemId { get; set; }
         public string Description { get; set; }
+
+        [Column(TypeName = "decimal(5,2)")]
         public decimal RatePerHour { get; set; } = 0m;
+        [Column(TypeName = "decimal(5,2)")]
         public decimal HoursWorked { get; set; }
-        public decimal TotalAmount => this.RatePerHour * this.HoursWorked;
+        [Column(TypeName = "decimal(5,2)")]
+        public decimal TotalAmount => RatePerHour * HoursWorked;
         public int InvoiceId { get; set; }
 
 
